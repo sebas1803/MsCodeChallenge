@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsCodeChallenge.API", "MsCodeChallenge.API\MsCodeChallenge.API.csproj", "{90D3A857-E388-4E25-819B-67BE583630F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsCodeChallenge.UnitTests", "MsCodeChallenge.UnitTests\MsCodeChallenge.UnitTests.csproj", "{7A34B50B-A69E-49B4-97E4-7B8F9BBB7EE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90D3A857-E388-4E25-819B-67BE583630F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D3A857-E388-4E25-819B-67BE583630F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D3A857-E388-4E25-819B-67BE583630F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D3A857-E388-4E25-819B-67BE583630F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A34B50B-A69E-49B4-97E4-7B8F9BBB7EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A34B50B-A69E-49B4-97E4-7B8F9BBB7EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A34B50B-A69E-49B4-97E4-7B8F9BBB7EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A34B50B-A69E-49B4-97E4-7B8F9BBB7EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {301220A9-35A5-4455-8036-495D7790B09F}
+	EndGlobalSection
+EndGlobal
