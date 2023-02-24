@@ -43,7 +43,7 @@ public class TestProductsController {
         //Act
         var result = await sut.GetProductById(1);
 
-        //Assert
+        // Assert
         result.Should().BeOfType<NotFoundResult>();
         var objectResult = (NotFoundResult)result;
         objectResult.StatusCode.Should().Be(404);
